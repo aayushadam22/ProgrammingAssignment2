@@ -2,7 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## This function takes matrix x as input and sets inverse to n  and adds
+##it to cache
 makeCacheMatrix <- function(x = matrix()) {
   n <- NULL
   set <- function(y){
@@ -20,6 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
+##This function checks in cache if found it uses it else calculates the
+## value itself.
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   n <- x$getsolve()
